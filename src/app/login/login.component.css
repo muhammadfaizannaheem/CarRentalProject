@@ -7,10 +7,10 @@ html {
 
 .footer {
     font-family: cursive;
-    width: 98%;
+    width: 100%;
     text-align: center;
     color: white;
-    margin-top: 6%;
+    margin-top: 7.5%;
     background-image: linear-gradient(50deg, #1EACD3, #27B582);
 }
 
@@ -21,12 +21,13 @@ img {
 }
 
 .line {
-    margin-top: 40%;
-    border-left: 6px solid grey;
-    height: 450px;
-    margin-left: 5rem;
-    opacity: 50%;
-    border-radius: 8px;
+    width: 4px;
+    height: 400px;
+    margin-top: 50%;
+    margin-left: 40%;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 20%;
 }
 
 .login-box {
@@ -38,7 +39,7 @@ img {
     color: rgb(37, 35, 35);
     padding: 2rem;
     border-radius: 2rem;
-    box-shadow: 10px 10px 25px 7.5px grey;
+    box-shadow: 8px 8px 12px 12px lightgray;
 }
 
 .login-box h1 {
