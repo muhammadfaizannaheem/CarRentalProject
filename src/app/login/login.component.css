@@ -1,20 +1,35 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
-body {
+html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background-color: black;
+    font-family: fantasy;
+}
+
+.footer {
+    font-family: cursive;
+    width: 98%;
+    text-align: center;
+    margin-top: 6%;
+    background-image: linear-gradient(50deg, #1EACD3, #27B582);
 }
 
 img {
-    margin-top: 8.5rem;
+    position: absolute;
+    top: 13%;
     margin-left: 15rem;
+}
+
+.line {
+    margin-top: 40%;
+    border-left: 6px solid #252525;
+    height: 450px;
+    margin-left: 5rem;
 }
 
 .login-box {
     width: 400px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 70%;
     transform: translate(-50%, -50%);
     color: rgb(37, 35, 35);
@@ -27,11 +42,13 @@ img {
     float: center;
     width: 100%;
     font-size: 40px;
+    font-family: cursive;
     padding: 2px 0;
 }
 
 .login-box h3 {
     color: grey;
+    font-family: sans-serif;
     padding-bottom: 1rem;
     margin-bottom: 30px;
     border-bottom: 3px solid #27B582;
@@ -44,7 +61,7 @@ img {
     font-size: 20px;
     padding: 8px 0;
     margin: 8px 0;
-    border-bottom: 1px solid #4caf50;
+    border-bottom: 1px solid #27B582;
 }
 
 .textbox i {
